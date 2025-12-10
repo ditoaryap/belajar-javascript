@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class</title>
+    <title>Document</title>
 </head>
 <body>
     <script>
-        
-        class Person {
 
+        class Person {
+            constructor(name) {
+                console.info(`Membuat Person ${name}`);
+            }
         }
 
-        const dito = new Person();
+        const dito = new Person('Dito');
         console.info(dito)
+
+        const budi = new Person('Budi');
+
     </script>
 </body>
 </html>
